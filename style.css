@@ -34,8 +34,13 @@ body {
     width: 350px;
 }
 
+#card:hover {
+    border-radius: 12px;
+    border: 2px solid rgba( 255, 255, 255, 0.18 );
+}
+
 #card img {
-    padding-left: 6%;
+    padding-left: 6.5%;
     padding-top: 2%;
 }
 
@@ -43,4 +48,46 @@ body {
     text-align: center;
     color: azure;
     font-family: Verdana;
+    padding-left: 2%;
+    padding-right: 2%;
 }
+
+#projetos { 
+    margin-top: 3%;
+    margin-left: 33%;
+    background: rgba( 189, 16, 224, 0.4 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 3px );
+    -webkit-backdrop-filter: blur( 3px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+    cursor: pointer;
+}
+
+#projetos:hover {
+    border-radius: 12px;
+    border: 2px solid rgba( 255, 255, 255, 0.18 );
+}
+
+#projetos h3 {
+    text-align: center;
+    color: white;
+}
+
+#projetos li {
+    list-style-type: none;
+}
+
+#projetos p {
+    text-align: center;
+    color: azure;
+    font-family: Verdana;
+    padding-left: 2%;
+    padding-right: 2%;
+}
+
+#projetos img {
+    margin-left: 4%;
+}
+
+
