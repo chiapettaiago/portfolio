@@ -39,6 +39,8 @@ body {
     padding-top: 2%;
 }
 
-#card li {
-    list-style-type: none;
+#card p {
+    text-align: center;
+    color: azure;
+    font-family: Verdana;
 }
